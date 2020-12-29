@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[3,1,5,8,10]
+
+
+        arr.sort((prev,next) =>{
+            // if (prev-next <0) {
+            //     return -124      //此时return的值可以随意写
+            // }else if(prev-next === 0){
+            //     return 0         //位置不变
+            // }else if(prev-next>0){
+            //     return 1361    //此时return的值可以随意写
+            // }
+
+            //简写为
+            return prev-next
+        } )
+    </script>
+</body>
+</html>
